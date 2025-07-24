@@ -1,0 +1,76 @@
+/* styles/predict.css */
+.form{
+  width: 50vw;
+  border:2px solid whitesmoke;
+  padding: 25px;
+  margin: 50px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, .2);
+  border-radius: 5px;
+
+
+}
+.predict-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('/bg.jpg'); /* Update the path */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+
+
+.predict-container h1 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1.2rem;
+}
+
+.form-group label {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.form-group input {
+  padding: 0.6rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button[type="submit"] {
+  padding: 0.8rem;
+  width: 100%;
+  background-color: #0070f3;
+  color: white;
+  border: none;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+  background-color: #0059c1;
+}
+
+.result {
+  margin-top: 2rem;
+  background: #e0f7e9;
+  padding: 1rem;
+  border-left: 5px solid #00a86b;
+  border-radius: 5px;
+}
+
+.form-group select {
+  width: 100%;
+  padding: 8px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}

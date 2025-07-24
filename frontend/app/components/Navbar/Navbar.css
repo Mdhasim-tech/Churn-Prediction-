@@ -1,0 +1,41 @@
+/* app/components/Navbar.css */
+.navbar {
+  background-color: #1e1e2f;
+  padding: 1rem 2rem;
+  color: white;
+}
+
+.nav-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  gap: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+}
+
+.logo img{
+  border-radius: 30px;
+  width: 60px;
+}
+
+.nav-links a {
+  margin-left: 1.5rem;
+  color: #ccc;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.nav-links a:hover {
+  color: white;
+}
